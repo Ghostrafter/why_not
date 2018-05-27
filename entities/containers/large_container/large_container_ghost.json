@@ -1,0 +1,31 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(large_container.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0.1 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "render_info": {
+         "scale": 0.2,
+         "animation_table": "file(/data/rigs/entities/containers/large_container/large_container.json)"
+      }
+      
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(why_not:entities.containers.large_container.large_container_ghost.display_name)",
+         "description": "i18n(why_not:entities.containers.large_container.large_container_ghost.description)",
+         "icon": "file(large_container.png)",
+         "category": "storage",
+         "material_tags": "metal containers crafted furniture stockpile_furniture"
+      }
+   }
+}
+

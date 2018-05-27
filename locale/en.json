@@ -1,0 +1,21 @@
+{
+    "entities": {
+        "containers": {
+            "large_container_ghost": {
+                "display_name": "Large Container",
+                "description": "Can it get any bigger?"
+            }
+        },
+        "jobs": {
+            "carpenter": {
+                "recipes": {
+                    "large_container_recipe": {
+                        "description": "Can it get any bigger?",
+                        "recipe_name": "Large Container"
+                    }
+                }
+            }
+        }
+    }
+    
+}
