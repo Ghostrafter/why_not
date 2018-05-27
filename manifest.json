@@ -8,7 +8,8 @@
   "default_locale": "en",
 
   "aliases": {
-    "containers:large_container": "file(entities/containers/large_container/large_container.json)"
+    "containers:large_container": "file(entities/containers/large_container/large_container.json)",
+    "containers:wagon_storage": "file(entities/containers/wagon_storage/wagon_storage.json)"
   },
   "mixintos": {
     "stonehearth/jobs/carpenter/recipes/recipes.json": "file(jobs/carpenter/recipes/recipes.json)"

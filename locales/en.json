@@ -4,6 +4,10 @@
             "large_container_ghost": {
                 "display_name": "Large Container",
                 "description": "Can it get any bigger?"
+            },
+            "wagon_stoage_ghost": {
+                "display_name": "Large Container",
+                "description": "Can it get any bigger?"
             }
         },
         "jobs": {
@@ -12,6 +16,10 @@
                     "large_container_recipe": {
                         "description": "Can it get any bigger?",
                         "recipe_name": "Large Container"
+                    },
+                    "wagon_storage_recipe": {
+                        "description": "Where are the horses?",
+                        "recipe_name": "Storage Wagon"
                     }
                 }
             }

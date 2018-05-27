@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 45,
+   "work_units": 10,
+   "recipe_name": "i18n(why_not:jobs.carpenter.recipes.wagon_storage_recipe.recipe_name)",
+   "description": "i18n(why_not:jobs.carpenter.recipes.wagon_storage_recipe.description)",
+   "flavor": "i18n(why_not:jobs.carpenter.recipes.wagon_storage_recipe.flavor)",
+   "portrait": "/entities/containers/wagon_storage/wagon_storage.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 15
+      }
+   ],
+   "produces": [
+      {
+         "item": "why_not:containers:wagon_storage"
+      }
+   ]
+}

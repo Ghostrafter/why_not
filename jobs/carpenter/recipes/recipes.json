@@ -6,6 +6,9 @@
           "recipes": {
              "large_container": {
                 "recipe": "file(large_container_recipe.json)"
+                },
+                "wagon_storage": {
+                    "recipe": "file(wagon_storage_recipe.json)"
                 }
             }
         }
